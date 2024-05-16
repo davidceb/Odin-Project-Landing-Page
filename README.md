@@ -1,0 +1,1 @@
+This is the Landing Page project for the Flexbox section of the Foundations part of the curriculum. In it I will use everything I have learned to make a landing page. The page will start off with the content provided by the course, but I may end up customizing it to something more presonalized as I work on it.
