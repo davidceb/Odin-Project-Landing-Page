@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: rgba(255, 0, 0, 0.367) */ solid 1px;
+    /* border: rgba(255, 0, 0, 0.367) *//*  solid 1px; */
     font-family: Roboto, sans-serif;
 }
 
@@ -138,6 +138,12 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
+}
+
+.title {
+    padding: 40px 0;
+    font-size: 2rem;
 }
 
 .tile {
@@ -145,8 +151,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    padding-bottom: 2rem;
 }
 
 .gallery-image {
@@ -161,4 +165,57 @@ p {
 
 figcaption {
     text-align: center;
+    word-wrap: normal;
+    width: 10rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
+
+/* Bottom Body section CSS */
+
+.section-2 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 2rem;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote-align {
+    font-weight: 300;
+}
+
+/* Call to Action Section CSS */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem;
+    gap: 10rem;
+    background-color: #3882F6;
+    height: 175px;
+    border-radius: 10px;
+    color: white;
+}
+
+.action-right {
+    padding: .6rem 1.75rem;
+    border-radius: 10px;
+    background-color: inherit;
+    color: white;
+    border: white solid 2px;
+    font-size: 1rem;
+}
+
+/* Footer Section CSS */
+
