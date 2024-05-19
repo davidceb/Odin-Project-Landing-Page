@@ -6,6 +6,7 @@
     box-sizing: border-box;
     /* border: rgba(255, 0, 0, 0.367) *//*  solid 1px; */
     font-family: Roboto, sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -161,6 +162,7 @@ p {
     border-radius: 10px;
     text-align: center;
     line-height: 10rem;
+    overflow: hidden;
 }
 
 figcaption {
@@ -219,3 +221,15 @@ figcaption {
 
 /* Footer Section CSS */
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 8rem;
+}
+
+.copyright {
+    font-weight: 200;
+}
